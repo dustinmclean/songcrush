@@ -6,27 +6,51 @@
     <title>SongCrush</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <main>
         <div class="main-section">
             <header class="header">
                 <div class="top-section">
-                
+                    <form action="#" method="post">
+                        <div class="search">
+                            <span class="search-icon material-symbols-outlined">search</span>
+                            <input class="search-input" type="search" name="search-bar" id="search-bar" placeholder="Search">
+                        </div>
+                    </form>
+                    <div class="empty-container">
 
+                    </div>
+                    <div class="top-right-profile-section-container">
+                      <a href="#">
+                        <img src="./images/bell-ring-outline.svg" class="icon">
+                      </a>
+                      <a href="#">
+                        <img src="./images/profile-photo.jpg" class="profile-photo">
+                      </a>
+                      <a href="#">
+                        <p class="profile-name">Annie Fartsmith</p>
+                      </a>
+                    </div>
                 </div>
                 <div class="bottom-section">
-                    <div class="name-avatar">
+                    <div class="bottom-profile-container">
+                        <a href="#">
+                            <img src="./images/profile-photo.jpg" class="large-profile-photo">
+                        </a>
+                        <div class="profile-greeting-container">
+                            <p>Hi there,</p>
+                            <p class="profile-name">Annie Fartsmith (@anniefarts)</p>
+                        </div>
+                    </div>
+                    <div class="empty-div-2">
 
                     </div>
                     <nav class="navlinks">
-                        <ul>
-                            <a href="#"><li>New</li></a>
-                            <a href="#"><li>Upload</li></a>
-                            <a href="#"><li>Share</li></a>
-                            
-                            
-                        </ul>
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
                     </nav>
 
                 </div>
@@ -34,19 +58,66 @@
             </header>
             <div class="admin-area">
                 <div class="projects">
-
                 </div>
                 <div class="announcements">
-
                 </div>
                 <div class="trending">
-
                 </div>
             </div>
-
-
         </div>
         <div class="sidebar">
+            <div class="logo">
+                <a href="#"><img src="./images/logo.svg" alt="SongCrush Logo"></a>
+
+            </div>
+            <div class="main-links">
+                <div class="side-bar-links">
+                    <a href="#">
+                      <img src="./images/home.svg" class="icon">
+                      <p>Home</p>
+                    </a>
+                </div>
+                <div class="side-bar-links">
+                    <a href="#">
+                      <img src="./images/account.svg" class="icon">
+                      <p>Profile</p>
+                    </a>
+                </div>
+                <div class="side-bar-links">
+                    <a href="#">
+                      <img src="./images/message-badge.svg" class="icon">
+                      <p>Messages</p>
+                    </a>
+                </div>
+                <div class="side-bar-links">
+                    <a href="#">
+                      <img src="./images/history.svg" class="icon">
+                      <p>History</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="settings-links">
+                <div class="side-bar-settings">
+                    <a href="#">
+                        <img src="./images/cog.svg" class="icon">
+                        <p>Settings</p>
+                    </a>
+                </div>
+                <div class="side-bar-settings">
+                    <a href="#">
+                        <img src="./images/help-box.svg" class="icon">
+                        <p>Support</p>
+                    </a>
+                </div>
+                <div class="side-bar-settings">
+                    <a href="#">
+                        <img src="./images/shield-check.svg" class="icon">
+                        <p>Privacy</p>
+                    </a>
+                </div>
+
+            </div>
 
         </div>
 
